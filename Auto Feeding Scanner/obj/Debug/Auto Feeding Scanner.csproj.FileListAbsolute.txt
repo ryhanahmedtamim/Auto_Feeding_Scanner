@@ -1,0 +1,9 @@
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\bin\Debug\Auto Feeding Scanner.exe.config
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\bin\Debug\Auto Feeding Scanner.exe
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\bin\Debug\Auto Feeding Scanner.pdb
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto Feeding Scanner.csprojResolveAssemblyReference.cache
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto_Feeding_Scanner.Form1.resources
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto_Feeding_Scanner.Properties.Resources.resources
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto Feeding Scanner.csproj.GenerateResource.Cache
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto Feeding Scanner.exe
+F:\Programming\C#\Code\Auto Feeding Scanner\Auto Feeding Scanner\obj\Debug\Auto Feeding Scanner.pdb
