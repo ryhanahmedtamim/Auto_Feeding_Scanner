@@ -510,14 +510,7 @@ namespace Auto_Feeding_Scanner
                     MessageBox.Show(ex.Message);
                 }
                 Port.DtrEnable = true;// false;
-                //while (true)
-                //{
-                //    if (is_ack == true)
-                //    {
-                //        is_ack = false;
-                //        break;
-                //    }
-                //}
+               
                 this.DebugRichTextBox.AppendText("Port Opened.\n");
 
                 cBoxResolution.Enabled = true;

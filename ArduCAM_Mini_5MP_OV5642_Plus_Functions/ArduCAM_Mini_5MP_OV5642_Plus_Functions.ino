@@ -106,7 +106,7 @@ if (Serial.available())
     temp = 0xff;
     break;
     case 2: 
-      myCAM.OV5642_set_JPEG_size(OV5642_1024x768);delay(1000);
+     myCAM.OV5642_set_JPEG_size(OV5642_1024x768);delay(1000);
       Serial.println(F("ACK CMD switch to OV5642_1024x768"));
     temp = 0xff;
     break;
@@ -148,7 +148,7 @@ if (Serial.available())
     mode = 2;
     temp = 0xff;
     start_capture = 2;
-    Serial.println(F("ACK CMD CAM start video streaming."));
+    Serial.println(F("Scanning start."));
     break;
     case 0x30:
     mode = 3;
@@ -187,12 +187,22 @@ if (mode == 1)
 }
 else if (mode == 2)
 {
-  
+  byte mmm = 1;
   while (1)
   {
-    analogWrite(mt,100);
-    delay(2000);
+    analogWrite(mt,255);
+    if(mmm == 1)
+    {
+       delay(165);
+       mmm++;
+    }
+    else
+    {
+      delay(162);
+    }
+    
     analogWrite(mt,0);
+    
     
     temp = Serial.read();
     if (temp == 0x21)
@@ -202,6 +212,8 @@ else if (mode == 2)
       Serial.println(F("Stop Scanning"));
       break;
     }
+
+    delay(500);
     
     if (start_capture == 2)
     {
@@ -249,7 +261,7 @@ else if (mode == 2)
       start_capture = 2;
       is_header = false;
     }
-    delay(2000);
+   // delay(3500);
   }
 }
 
